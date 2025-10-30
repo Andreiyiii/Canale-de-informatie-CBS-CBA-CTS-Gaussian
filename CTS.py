@@ -1,5 +1,5 @@
 import numpy as np
-
+from typing import List, Union
 def p2(lp: List[float]) -> Union[List[float], str]:
     rez=[]
     for i in lp:
