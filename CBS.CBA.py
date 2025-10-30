@@ -10,3 +10,5 @@ def p1(a: str, p: float) -> Union[float, str]:
         capacitate=1-p
     else:
         return "Date de intrare invalide!"
+    return capacitate
+ddd
