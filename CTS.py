@@ -11,4 +11,4 @@ def p2(lp: List[float]) -> Union[List[float], str]:
             rez.append(np.log2(3) + np.log2(1 / 2))
         else:
             rez.append(np.log2(3) + (1 - i) * np.log2(1 - i) + i * np.log2(i / 2))
-        return rez
+    return rez
